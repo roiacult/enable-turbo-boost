@@ -1,0 +1,8 @@
+[Unit]
+Description=Enable turbo boost & udate cpu frequency speed
+
+[Service]
+ExecStart=/usr/local/bin/boost-performance
+
+[Install]
+WantedBy=multi-user.target
