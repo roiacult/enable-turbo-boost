@@ -2,7 +2,7 @@
 Description=Enable turbo boost & udate cpu frequency speed
 
 [Service]
-ExecStart=/usr/local/bin/boost-performance
+ExecStart=/usr/local/bin/max-cpu-clock
 
 [Install]
 WantedBy=multi-user.target
