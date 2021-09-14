@@ -6,15 +6,15 @@
 ./turbo-boost.sh [enable/disable]
 ```
 
-# Set max cpu clock frequecy to avoid overheating or reduce fan noise
+## Set max cpu clock frequecy to avoid overheating or reduce fan noise
 
 ```
-./boost-performance.sh [max clock in hz (default 3500000=3.5GH)]
+./max-cpu-clock.sh [max clock in hz (default 3500000=3.5GH)]
 ```
 
-ex: `./boost-performance.sh 2500000` set max cpu clock to 2.5 GH
+ex: `./max-cpu-clock.sh 2500000` set max cpu clock to 2.5 GH
 
-# Add service to run at start up
+## Add service to run at start up
 
 add the 2 scripts to your path:
 
